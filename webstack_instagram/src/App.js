@@ -1,15 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Button from './Button';
+const App = () => {
+  
+  const name = 'Webstack Challange';
   return (
     <div className="App">
-     <form>
-      <span><input placeholder='+234' value='' /></span>
-      <span><input placeholder='Enter your number' /></span>
-     </form>
+      <h1>Hello this is the {name}</h1>
+      <Button alertText="Welcome to a new future" />
+      <p></p>
     </div>
+
   );
 }
 
 export default App;
+ 
