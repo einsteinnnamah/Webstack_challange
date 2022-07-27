@@ -44,3 +44,65 @@
   margin-right: 10px;
 }
 
+.Bio_wrapper{
+  margin-top: 50px;
+}
+
+.Profile_intro{
+ margin-bottom: 44px;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-shrink: 0;
+}
+
+.Profile_image img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.Profile_text_header{
+ display: flex;
+ align-items: center;
+ margin-right: 200px;
+}
+
+.Profile_text_header h1{
+  font-size:28;
+  color: rgb(38, 38, 38);
+  font-weight: lighter;
+}
+
+.Profile_text_header_btn{
+  margin: 20px;
+  padding: 10px;
+}
+
+.edit_btn{
+ border: 1px solid rgb(219, 219, 219);
+ color: rgb(38, 38, 38);
+ border-radius: 4px;
+ padding: 5px 9px;
+ cursor: pointer;
+ font-size: 14px;
+ touch-action: manipulation;
+}
+
+.settings-icon{
+  margin-left: 10px;
+}
+
+.Bio_stats{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Bio_stats p{
+  margin-right: 50px;
+}
+
+.content{
+  color: rgb(142, 142, 142);
+}
+
+
