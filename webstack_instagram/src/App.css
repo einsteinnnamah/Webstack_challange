@@ -105,4 +105,9 @@
   color: rgb(142, 142, 142);
 }
 
+.username{
+  display: flex;
+  flex-direction: column;
+}
+
 

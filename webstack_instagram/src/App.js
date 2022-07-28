@@ -1,6 +1,6 @@
 import './App.css';
-import Bio from './Components/Bio';
-import Nav from "././Components/Nav";
+import {Bio, Nav} from './Components';
+
 const App = () => {
   return (
     <>

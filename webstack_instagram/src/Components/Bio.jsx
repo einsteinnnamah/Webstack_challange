@@ -8,16 +8,17 @@ const Bio = () => {
     posts: '1.5M'
   }
 
-  const editForm = () => {
+  const editForm = (
     <form className='edit-bio-form'>
+      <div className='username'>
+        <label htmlFor="">Username</label>
         <input type="text" name="" id="" placeholder='Enter your Username' />
-        <div className=''>
-         <label htmlFor="">Bio</label>
-          <input type="text" name="" id="" placeholder='Fill in your Bio details' />
-        </div>
+      </div>
      
+      <input type="text" name="" id="" placeholder='About you' />
     </form>
-  }
+  )
+    
 
 
   return (
@@ -31,6 +32,7 @@ const Bio = () => {
             <h1>Chibuezennamah</h1>
             <div className='Profile_text_header_btn'>
               <button className='edit_btn'>Edit Profile</button>
+              {editForm}
             </div>
           
           </div>
