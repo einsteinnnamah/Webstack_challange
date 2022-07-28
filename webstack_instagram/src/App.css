@@ -110,4 +110,17 @@
   flex-direction: column;
 }
 
+.edit-bio-form input{
+  padding: 14px;
+  width: 700px;
+}
+
+
+.about_me{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
 

@@ -15,7 +15,10 @@ const Bio = () => {
         <input type="text" name="" id="" placeholder='Enter your Username' />
       </div>
      
-      <input type="text" name="" id="" placeholder='About you' />
+      <div className='about_me'>
+        <label htmlFor="">About</label>
+        <input type="text" name="" id="" placeholder='Tell us about yourself' />
+      </div>
     </form>
   )
     
